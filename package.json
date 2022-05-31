@@ -1,0 +1,15 @@
+{
+  "name": "crud-nodejs-express",
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sucrase": "^3.21.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
